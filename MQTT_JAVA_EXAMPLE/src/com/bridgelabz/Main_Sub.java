@@ -11,12 +11,12 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 public class Main_Sub {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String topic        = "gyzgyz";
-        String content      = "Message from MqttPublishSample";
+		String topic        = "MQTT Example";
+        String content      = "Message from MqttPublishSample Subscriber";
         //0(only one time) 1(at least one time) 2(exactly one time)
         int qos             = 2;
         //String broker       = "tcp://iot.eclipse.org:1883";
-        String broker = "tcp://broker.mqtt-dashboard.com:1883";
+        String broker = "tcp://localhost:1883";
         String clientId     = "JavaSample";
         MqttClient client;
 		try {

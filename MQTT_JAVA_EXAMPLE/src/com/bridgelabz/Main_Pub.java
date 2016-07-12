@@ -11,13 +11,13 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 public class Main_Pub {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String topic        = "gyzgyz";
+		String topic        = "MQTT Example";
         String content      = "Message from MqttPublishSample";
         //0(only one time) 1(at least one time) 2(exactly one time)
         int qos             = 2;
         //String broker       = "tcp://iot.eclipse.org:1883";
-        String broker = "tcp://broker.mqtt-dashboard.com:1883";
-        String clientId     = "JavaSample";
+        String broker = "tcp://localhost:1883";
+        String clientId = "JavaSample";
         MemoryPersistence persistence = new MemoryPersistence();
 
         try {
