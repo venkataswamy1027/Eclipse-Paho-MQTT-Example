@@ -9,11 +9,11 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 public class MqttPublishSample {
 	public static void main(String[] args) {
 
-        String topic        = "MQTT Examples";
-        String content      = "Message from MqttPublishSample";
-        int qos             = 2;
-        String broker       = "tcp://iot.eclipse.org:1883";
-        String clientId     = "JavaSample";
+        String topic        = "MQTT Example";
+        String content      = "Message from MqttPublishSample Program";
+        int qos             = 1;
+        String broker       = "tcp://localhost:1883";
+        String clientId     = "pahomqttpublish";
         MemoryPersistence persistence = new MemoryPersistence();
 
         try {
