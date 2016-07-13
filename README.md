@@ -30,6 +30,7 @@ open two terminals.
 
 Terminal A: receive the publishing message from terminal B
 Command : mosquitto _sub -d -t "hello/world"
+
 Terminal B:
 Command : mosquitto_pub -d -t hello/world -m "Hi! how are you"
 
