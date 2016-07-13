@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# Eclipse-Paho-MQTT-Example
+
+>>>>>>> dfe8f18272e4e5f22f3c3c55b9263b98bb635104
 # Eclipse Paho Java Client
 
 The Paho Java Client is an MQTT client library written in Java for developing applications that run on the JVM or other Java compatible platforms.MQTT is a protocol and protocols need client implementations.
@@ -30,3 +35,9 @@ Command : mosquitto _sub -d -t "hello/world"
 
 Terminal B:
 Command : mosquitto_pub -d -t hello/world -m "Hi! how are you"
+<<<<<<< HEAD
+=======
+------------------------
+# Bridgelabz Tasks
+(1). Sample code of the Java client to access a MQTT broker and publishing/subscribing the messages.
+>>>>>>> dfe8f18272e4e5f22f3c3c55b9263b98bb635104
